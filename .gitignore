@@ -1,0 +1,46 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+
+# ======================
+# Datasets (exclude)
+# ======================
+cleaned_english_tr.txt
+cleaned_english_val.txt
+cleaned_hindi_tr.txt
+cleaned_hindi_val.txt
+
+# ======================
+# Model checkpoints
+# ======================
+*.pt
+*.pth
+*.ckpt
+
+# ======================
+# Tokenizers (optional)
+# ======================
+tokenizer_*.json
+
+# ======================
+# Logs / cache
+# ======================
+.cache/
+logs/
+runs/
+wandb/
+
+# ======================
+# OS junk
+# ======================
+.DS_Store
+Thumbs.db
